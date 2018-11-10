@@ -91,11 +91,7 @@ name = gets.strip
 
 4 . Use that input to do something else:
 
-```ruby
-greeting(name)
-```
-
-In this case, we are passing the user's input into the `#greeting` method as an argument. The greeting method then uses string interpolation to `#puts` out a personalized message.
+```ruby message.
 
 
 ## The `gets` Method
@@ -103,6 +99,10 @@ We've talked a lot about capturing and storing a user's input to the terminal an
 
 Let's take another look at our code from `bin/greeting`
 
+greeting(name)
+```
+
+In this case, we are passing the user's input into the `#greeting` method as an argument. The greeting method then uses string interpolation to `#puts` out a personalized
 ```ruby
 puts "Hi! Welcome to the wonderful world of Ruby programming."
 puts "Please enter your name so that we can greet you more personally:"
